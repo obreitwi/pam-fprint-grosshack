@@ -1,4 +1,5 @@
-Original pam-fprint-grosshack with changed prompt
+Original pam-fprint-grosshack with changed prompt.  
+There is also modified PKGBUILD because one from AUR had dependencies problems.
 
 This is a fork of the pam module which implements the simultaneous
 password and fingerprint behaviour present in pam_thinkfinger. It
