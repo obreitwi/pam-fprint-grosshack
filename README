@@ -1,3 +1,5 @@
+Original pam-fprint-grosshack with changed prompt
+
 This is a fork of the pam module which implements the simultaneous
 password and fingerprint behaviour present in pam_thinkfinger. It
 was called a 'gross hack' by the fprintd developers in their README
