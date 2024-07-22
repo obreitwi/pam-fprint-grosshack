@@ -738,7 +738,7 @@ prompt_pw (void *d)
 {
   verify_data *data = d;
   char *pw;
-  pam_prompt (data->pamh, PAM_PROMPT_ECHO_OFF, &pw, "Enter password or use fingerprint reader: \n");
+  pam_prompt (data->pamh, PAM_PROMPT_ECHO_OFF, &pw, "Enter password or use fingerprint reader: ");
   pam_set_item (data->pamh, PAM_AUTHTOK, pw);
   data->stop_got_pw = true;
   if (debug)
